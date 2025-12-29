@@ -15,7 +15,7 @@ export default function App() {
   const [menu] = useState(sampleMenu)
   const [table, setTable] = useState('')
   const menuJson = encodeURIComponent(JSON.stringify(menu))
-  const menuUrl = `https://resturantmenuqr.vercel.app/menu?data=${menuJson}`
+  const menuUrl = `https://resturantmenuqr.vercel.app/`
 
   return (
     <div className="app">
